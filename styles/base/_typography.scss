@@ -1,23 +1,25 @@
 @font-face {
   font-family: "heroiccondensed";
-  src: url("/assets/fonts/heroiccondensed-black-webfont.woff") format("woff"),
-        url("/assets/fonts/heroiccondensed-bold-webfont.woff") format("woff"),
-        url("/assets/fonts/heroiccondensed-heavy-webfont.woff") format("woff"),
-        url("/assets/fonts/heroiccondensed-medium-webfont.woff") format("woff"),
-
+  src: 
+  
+  url("/assets/fonts/heroiccondensed-medium-webfont.woff") format("woff"),
+  url("/assets/fonts/heroiccondensed-heavy-webfont.woff") format("woff"),
+  url("/assets/fonts/heroiccondensed-bold-webfont.woff") format("woff"),
+  url("/assets/fonts/heroiccondensed-black-webfont.woff") format("woff"),
+  
 }
 *{
 
     font-family: 'heroiccondensed', sans-serif;
     font-size: 16px;
-    color:var(--text-color)
+    color:var(--text-color);
 
 
 }
 
 
 /* Declare text styles */
-h1, h2,h3,h4, p {
+h1, h2,h3,h4, p,a {
   /* Font minimum, preferred and maximum value */
   font-size: clamp(var(--min), var(--val), var(--max));
 }
@@ -43,8 +45,9 @@ h4 {
   --val: 4vw;     /* preferred value = 4% viewport width */
   --max: 1.8em;  /* maximum value */
 }
-p {
+p,a {
   --min: 1em;   /* minimum value */
   --val: 2.5vw; /* preferred value = 2.5% viewport width */
   --max: 1.5em; /* maximum value */
 }
+
