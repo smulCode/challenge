@@ -1,0 +1,40 @@
+.hero {
+  min-height: 100vh;
+  max-width: 1300px;
+  padding: 1vw 5vw;
+  margin: 0 auto;
+}
+.hero-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.visual-wrapper{
+position: relative;
+width: 100%;
+}
+
+.hero-img {
+position: absolute;
+inset:0;
+right:-13%;
+
+
+
+}
+
+.background-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.content-container{
+display:flex;
+}
+// .video-content{
+
+// }

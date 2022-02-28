@@ -1,0 +1,323 @@
+:root {
+  --base-color:white;
+  --accent-color:#cc0c2f;
+  --text-color:#012c5c;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin /padding*/
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+*::before,
+*::after {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@font-face {
+  font-family: "heroiccondensed";
+  src: url("/assets/fonts/heroiccondensed-black-webfont.woff") format("woff"), url("/assets/fonts/heroiccondensed-bold-webfont.woff") format("woff"), url("/assets/fonts/heroiccondensed-heavy-webfont.woff") format("woff"), url("/assets/fonts/heroiccondensed-medium-webfont.woff") format("woff");
+}
+* {
+  font-family: "heroiccondensed", sans-serif;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+/* Declare text styles */
+h1, h2, h3, h4, p {
+  /* Font minimum, preferred and maximum value */
+  font-size: clamp(var(--min), var(--val), var(--max));
+}
+
+/* Font size variables */
+h1 {
+  --min: 2em;
+  /* minimum value */
+  --val: 5vw;
+  /* preferred value = 5% viewport width */
+  --max: 3em;
+  /* maximum value */
+}
+
+h2 {
+  --min: 1.5em;
+  /* minimum value */
+  --val: 4vw;
+  /* preferred value = 4% viewport width */
+  --max: 2.25em;
+  /* maximum value */
+}
+
+h3 {
+  --min: 1.3em;
+  /* minimum value */
+  --val: 4vw;
+  /* preferred value = 4% viewport width */
+  --max: 2em;
+  /* maximum value */
+}
+
+h4 {
+  --min: 1.2em;
+  /* minimum value */
+  --val: 4vw;
+  /* preferred value = 4% viewport width */
+  --max: 1.8em;
+  /* maximum value */
+}
+
+p {
+  --min: 1em;
+  /* minimum value */
+  --val: 2.5vw;
+  /* preferred value = 2.5% viewport width */
+  --max: 1.5em;
+  /* maximum value */
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.main-navigation li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.main-navigation a {
+  text-decoration: none;
+  color: inherit;
+}
+.main-navigation a:hover {
+  cursor: pointer;
+}
+
+.top-navbar,
+.bottom-navbar {
+  border-bottom: 1px solid rgba(153, 153, 153, 0.63);
+  height: 60px;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.navigation-left,
+.navigation-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+}
+
+.nav-left-content {
+  display: flex;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-link {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo-img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: -1rem;
+}
+
+.category-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.nav-left-content,
+.nav-center-content,
+.nav-right-content {
+  flex: 1;
+}
+
+.nav-right-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header {
+  color: var(--text-color);
+}
+
+.text-block {
+  position: relative;
+  height: 100vh;
+  background-color: var(--base-color);
+  width: 40%;
+}
+
+.small-title,
+.color-theme {
+  color: var(--accent-color);
+}
+
+.wrapper-titles {
+  position: absolute;
+  top: 12%;
+  left: 0%;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.top-title,
+.bottom-title {
+  font-size: 13em;
+  display: flex;
+  line-height: 20rem;
+  letter-spacing: 4rem;
+}
+
+.bottom-title {
+  justify-content: flex-end;
+  letter-spacing: 4rem;
+}
+
+.heart {
+  height: 100%;
+}
+
+.heart-icon {
+  width: 350px;
+  height: auto;
+  margin-left: -10%;
+}
+
+.big-title {
+  color: var(--accent-color);
+}
+
+.small-title {
+  position: absolute;
+  top: 10%;
+}
+
+.text-content {
+  position: absolute;
+  bottom: 20%;
+}
+
+.hero {
+  min-height: 100vh;
+  max-width: 1300px;
+  padding: 1vw 5vw;
+  margin: 0 auto;
+}
+
+.hero-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.visual-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.hero-img {
+  position: absolute;
+  inset: 0;
+  right: -13%;
+}
+
+.background-img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.content-container {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */
