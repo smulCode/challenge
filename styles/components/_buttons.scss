@@ -1,0 +1,45 @@
+.cta-view-products{
+  background-color:var(--accent-color);
+  color: var(--base-color);
+  border:0;
+  align-items: center;
+  border-radius: 100px;
+  cursor: pointer;
+  justify-content: center;
+  // line-height: 20px;
+  max-width: 680px;
+  min-height: 3rem;
+  overflow: hidden;
+  padding: 0 4rem;
+  text-align: center;
+  touch-action: manipulation;
+  transition: all 250ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  
+ 
+}
+
+.cta-link{
+  text-transform: uppercase;
+  text-decoration: none;
+  color:inherit;
+}
+
+.cta-view-products:hover,
+.cta-view-products:focus { 
+  filter:contrast(2);
+  
+}
+
+.cta-view-products:active {
+  background: var(--accent-color);
+  color: rgba(var(--base-color) .7);
+}
+
+.cta-view-products:disabled { 
+  cursor: not-allowed;
+  background: rgba(var(--accent-color) .08);
+  color: rgba(0, 0, 0, .3);
+}

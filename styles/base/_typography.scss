@@ -10,7 +10,7 @@
 }
 *{
 
-    font-family: 'heroiccondensed', sans-serif;
+    font-family: 'heroiccondensed';
     font-size: 16px;
     color:var(--text-color);
 
@@ -26,14 +26,14 @@ h1, h2,h3,h4, p,a {
 
 /* Font size variables */
 h1 {
-  --min: 2em; /* minimum value */
+  --min: 22em; /* minimum value */
   --val: 5vw; /* preferred value = 5% viewport width */
-  --max: 3em; /* maximum value */
+  --max: 32em; /* maximum value */
 }
 h2 {
-  --min: 1.5em;   /* minimum value */
+  --min: 2em;   /* minimum value */
   --val: 4vw;     /* preferred value = 4% viewport width */
-  --max: 2.25em;  /* maximum value */
+  --max: 3em;  /* maximum value */
 }
 h3 {
   --min: 1.3em;   /* minimum value */
@@ -41,13 +41,13 @@ h3 {
   --max: 2em;  /* maximum value */
 }
 h4 {
-  --min: 1.2em;   /* minimum value */
+  --min: 1.1em;   /* minimum value */
   --val: 4vw;     /* preferred value = 4% viewport width */
-  --max: 1.8em;  /* maximum value */
+  --max: 1.5em;  /* maximum value */
 }
 p,a {
   --min: 1em;   /* minimum value */
-  --val: 2.5vw; /* preferred value = 2.5% viewport width */
-  --max: 1.5em; /* maximum value */
+  --val: 2vw; /* preferred value = 2% viewport width */
+  --max: 1.2rem; /* maximum value */
 }
 

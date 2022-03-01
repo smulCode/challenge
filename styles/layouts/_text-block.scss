@@ -1,105 +1,47 @@
-.text-block {
-  position: relative;
-  height: 100vh;
-  background-color: var(--base-color);
-  width: 40%;
+.content-container {
+  position: absolute;
+  inset: 0;
+  width: 27%;
+  padding: 1rem;
+
 }
 
+.text-block {
+  position: relative;
+  width: 100%;
+}
 .small-title,
 .color-theme {
   color: var(--accent-color);
 }
 
-.small-title{
-  padding-top:25%;
+.small-title {
+  letter-spacing: 0.3rem;
+  position: absolute;
+  top: 6%;
 }
 
 .text-content {
   position: absolute;
-  bottom: 20%;
-
+  bottom: 5%;
 }
 
-.text-title{
-  display:flex;
+.text-title {
+  display: flex;
   flex-direction: column;
-  line-height:1em;
+  line-height: 1em;
+  letter-spacing: 0.5rem;
 }
 
-.text-subtitle{
-  font-weight: lighter;
+.text-subtitle {
+  width: 60%;
+  line-height: 1.8rem;
+  margin: 1rem 0;
+  letter-spacing: 0.1rem;
 }
 
-// hero headline
-.title-container {
-  display: flex;
-  align-items:center;
-  justify-content: flex-start;
-  max-height: 30vh;
-  width: 50%;
-
+.text-slogan {
+  line-height: 1.4rem;
+  margin: 1rem 0;
+  width: 80%;
 }
-.title-VE,
-.title-L,
-.title-LA
-
-{
-  font-size: 25vw;
-  line-height: 1rem;
-  color: var(--accent-color);
-  letter-spacing: 3.5rem;
-}
-
-.heart {
-  // background:blue;
-  // border: 1px solid green;
-  height:30vh ;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-.heart-icon {
-  width: 100%;
-  height: 100%;
-  object-fit: center;
-}
-
-.title-wrapper,
-.top-title,
-.bottom-title{
-  display: flex;
-}
-.title-wrapper{
-  position: absolute;
-  left:-1em;
-  top:13%;
-  flex-direction:column;
-  justify-content:space-evenly;
- 
-  z-index: 10;
-}
-
-.bottom-title{
-justify-content:flex-end;
-}
-
-.title-VE
-{
-margin-left:5rem;
-}
-.title-LA
-{
-
-letter-spacing:1rem;
-}
-
-.bottom-title{
-margin-top:17%;
-margin-left:8%;
-
-}
-
-
-
