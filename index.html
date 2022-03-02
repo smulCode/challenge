@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./styles/main.css" />
     <title>Tommy Hilfiger</title>
   </head>
@@ -34,7 +41,7 @@
               </li>
               <li><a href="" class="signin-link">SIGN IN/ REGISTER </a></li>
               <div class="shoppingbag">
-                <img src="/assets/icons/twitter.svg" alt="shoppingbag" />
+                <i class="fa-solid fa-basket-shopping"></i>
               </div>
             </ul>
           </div>
@@ -75,11 +82,7 @@
             <div class="nav-right-content">
               <input type="text" class="searchbar" placeholder="Search" />
               <div class="search-icon">
-                <img
-                  src="./assets/icons/twitter.svg"
-                  alt=""
-                  class="search-icon"
-                />
+                <i class="fa-solid fa-magnifying-glass"></i>
               </div>
             </div>
           </div>
@@ -145,20 +148,17 @@
             />
           </div>
         </div>
+
         <div class="video-container">
-          <video
-            class="video-content"
-            src="/resources/test-video.mp4"
-            controls
-            muted
-          ></video>
-          <div class="background-block-element"></div>
+          <video muted src="/resources/test-video.mp4" class="video"></video>
+          <div class="player-controls">
+            <button class="play-button" title="Play">▶</button>
+          </div>
         </div>
       </div>
-
-
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
     <script type="module" src="./JS/main.js"></script>
   </body>
 </html>

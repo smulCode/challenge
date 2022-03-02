@@ -9,7 +9,6 @@
   height: 100%;
   width: 100%;
   overflow: hidden;
-
 }
 
 .visual-wrapper {
@@ -53,13 +52,10 @@
   grid-area: 1 / 2 / 2 / -1;
   z-index: 10;
 }
-.white-block{
-  // align-self: center;
+.white-block {
   height: 290px;
   grid-area: 1 / -2 / 1 / -1;
-background:white;
-z-index:11;
-width: 100%;
-
-
+  background: var(--base-color);
+  z-index: 11;
+  width: 100%;
 }

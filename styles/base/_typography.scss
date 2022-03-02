@@ -1,25 +1,23 @@
 @font-face {
   font-family: "heroiccondensed";
-  src: 
-  
-  url("/assets/fonts/heroiccondensed-medium-webfont.woff") format("woff"),
-  url("/assets/fonts/heroiccondensed-heavy-webfont.woff") format("woff"),
-  url("/assets/fonts/heroiccondensed-bold-webfont.woff") format("woff"),
-  url("/assets/fonts/heroiccondensed-black-webfont.woff") format("woff"),
-  
+  src: url("/assets/fonts/heroiccondensed-medium-webfont.woff") format("woff"),
+    url("/assets/fonts/heroiccondensed-heavy-webfont.woff") format("woff"),
+    url("/assets/fonts/heroiccondensed-bold-webfont.woff") format("woff"),
+    url("/assets/fonts/heroiccondensed-black-webfont.woff") format("woff");
 }
-*{
-
-    font-family: 'heroiccondensed';
-    font-size: 16px;
-    color:var(--text-color);
-
-
+* {
+  font-family: "heroiccondensed";
+  font-size: 16px;
+  color: var(--text-color);
 }
-
 
 /* Declare text styles */
-h1, h2,h3,h4, p,a {
+h1,
+h2,
+h3,
+h4,
+p,
+a {
   /* Font minimum, preferred and maximum value */
   font-size: clamp(var(--min), var(--val), var(--max));
 }
@@ -31,23 +29,23 @@ h1 {
   --max: 32em; /* maximum value */
 }
 h2 {
-  --min: 2em;   /* minimum value */
-  --val: 4vw;     /* preferred value = 4% viewport width */
-  --max: 3em;  /* maximum value */
+  --min: 2em; /* minimum value */
+  --val: 4vw; /* preferred value = 4% viewport width */
+  --max: 3em; /* maximum value */
 }
 h3 {
-  --min: 1.3em;   /* minimum value */
-  --val: 4vw;     /* preferred value = 4% viewport width */
-  --max: 2em;  /* maximum value */
+  --min: 1.3em; /* minimum value */
+  --val: 4vw; /* preferred value = 4% viewport width */
+  --max: 2em; /* maximum value */
 }
 h4 {
-  --min: 1.1em;   /* minimum value */
-  --val: 4vw;     /* preferred value = 4% viewport width */
-  --max: 1.5em;  /* maximum value */
+  --min: 1.1em; /* minimum value */
+  --val: 4vw; /* preferred value = 4% viewport width */
+  --max: 1.5em; /* maximum value */
 }
-p,a {
-  --min: 1em;   /* minimum value */
+p,
+a {
+  --min: 1em; /* minimum value */
   --val: 2vw; /* preferred value = 2% viewport width */
   --max: 1.2rem; /* maximum value */
 }
-
