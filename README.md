@@ -25,50 +25,34 @@ Bonus points:
 - Custom video player with custom controls.
 - Responsive layout
 
-## Tips
-- - - -
-### Plan your time carefully
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-You are better to have 90% of the site finished to perfection, rather than having 100% of the site half done.
+### Screenshot
+![](./screenshot/Tommy Hilfiger - screenshot.png)
 
-### Attention to detail
+### Links
 
-Ensure to use good semantics and make sure you can justify this. We are looking for attention to detail so look how you can make this as accurate to the design as possible.
-
-### Keep it in motion
-
-You are provided with a _Motion Example_, a video that showcases UI and UX of a project, it is the foundation of all animations and interactions on the website.
-
-You can find this file at `resources/motion-example.mov`.
-
-Look at it closely, rewind it, pause it, explore it.
-You might want to take some time here.
-
-Of course there is a `psd` for your convenience, `resources/design.psd`.
-
-### Work with the assets
+- Live Site URL: [live site URL here](https://smulcode.github.io/challenge//)
 
 
-You will have all that you need in the `assets` folder.
+## My process
 
-This comprises of fonts, images and whatever we think is necessary for you to succeed, which in turn is what we already used to succeed.
+### Built with
 
-For the video you can use `resources/test-video.mp4`.
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS Grid
+- SCSS
+- JavaScript
+- GSAP
 
-Small note: if a font is missing, it means you can ignore that one.
 
-## Write your own
-- - - -
 
-We are not shipping any build system or boilerplate to not tie you up and see how you would approach it.
+## Author
 
-There is no folder structure or pre-existing code. Everything is up to you, from the `index.html` to the last line of `style`.
-
-Choose your tools wisely and use them smartly; that's also part of the test!
-
-## Submitting your Challenge
-- - - -
-
-To submit the code package as a zip file to the link on the email. Ensure there is instructions to run the project in a readme.md for the project.
-
-And lastly... have fun!!!
+[Wesley Smulders]
