@@ -79,7 +79,7 @@ select {
 }
 @font-face {
   font-family: "heroiccondensed";
-  src: url("../../assets/fonts/heroiccondensed-medium-webfont.woff") format("woff"), url("../../assets/fonts/heroiccondensed-heavy-webfont.woff") format("woff"), url("../../assets/fonts/heroiccondensed-bold-webfont.woff") format("woff"), url("../../assets/fonts/heroiccondensed-black-webfont.woff") format("woff");
+  src: url("../../assets/fonts/heroiccondensed-medium-webfont.woff") format("woff"), url("../../assets/fonts/heroiccondensed-medium-webfont.ttf") format("ttf"), url("../../assets/fonts/heroiccondensed-medium-webfont.eot") format("eot"), url("../../assets/fonts/heroiccondensed-heavy-webfont.woff") format("woff"), url("../../assets/fonts/heroiccondensed-heavy-webfont.ttf") format("ttf"), url("../../assets/fonts/heroiccondensed-heavy-webfont.eot") format("eot"), url("../../assets/fonts/heroiccondensed-bold-webfont.woff") format("woff"), url("../../assets/fonts/heroiccondensed-bold-webfont.ttf") format("ttf"), url("../../assets/fonts/heroiccondensed-bold-webfont.eot") format("eot"), url("../../assets/fonts/heroiccondensed-black-webfont.woff") format("woff"), url("../../assets/fonts/heroiccondensed-black-webfont.ttf") format("ttf"), url("../../assets/fonts/heroiccondensed-black-webfont.eot") format("eot");
 }
 * {
   font-family: "heroiccondensed", sans-serif;
