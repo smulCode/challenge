@@ -42,7 +42,7 @@ const playButton = videoPlayer.querySelector(".play-button");
 
 const buttonTl = gsap
   .timeline({
-    defaults: { duration: 1, ease: "power2.out" },
+    defaults: { duration: 0.3, ease: "power2.out" },
   })
   .pause()
 
@@ -57,7 +57,7 @@ playButton.addEventListener("click", (e) => {
   console.log("click");
   if (video.paused) {
     video.play();
-    e.target.textContent = "⏸️";
+    e.target.textContent = "⏸";
     buttonTl.play();
   } else {
     video.pause();
