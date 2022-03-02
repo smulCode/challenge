@@ -1,17 +1,20 @@
 # Media.Monks - Immersive Web Challenge
 
-## Traineeship Recruitment Challenge 
-- - - -
+## Traineeship Recruitment Challenge
+
+---
+
 Welcome, you are about to be faced with the traineeship coding challenge. This is designed to give us an understanding of you current abilities and provide you with an interesting challenge and introduction to some of the work you will be doing.
 
 ## Assignment
-- - - -
+
+---
+
 Your assignment for today is to replicate the intro of the homepage of a website we have already built.
 
 In this particular case it is the landing page of the _Tommy Hilfiger's Denim_ campaign website.
 
 You can mock data like copy, but everything should look and function as showcased in the _Motion Example_.
-
 
 You have to provide the structure, style, animations and custom logic.
 
@@ -33,12 +36,12 @@ Bonus points:
 - [Author](#author)
 
 ### Screenshot
+
 ![](./screenshot/Tommy Hilfiger - screenshot.png)
 
 ### Links
 
-- Live Site URL: [live site URL here](https://smulcode.github.io/challenge//)
-
+- Live Site URL: [live site URL here](https://smulcode.github.io/challenge)
 
 ## My process
 
@@ -50,8 +53,6 @@ Bonus points:
 - SCSS
 - JavaScript
 - GSAP
-
-
 
 ## Author
 
