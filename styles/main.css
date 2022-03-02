@@ -82,7 +82,7 @@ select {
   src: url("../../assets/fonts/heroiccondensed-medium-webfont.woff") format("woff"), url("../../assets/fonts/heroiccondensed-heavy-webfont.woff") format("woff"), url("../../assets/fonts/heroiccondensed-bold-webfont.woff") format("woff"), url("../../assets/fonts/heroiccondensed-black-webfont.woff") format("woff");
 }
 * {
-  font-family: "heroiccondensed";
+  font-family: "heroiccondensed", sans-serif;
   font-size: 16px;
   color: var(--text-color);
 }
